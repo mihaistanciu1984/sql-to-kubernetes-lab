@@ -1,0 +1,12 @@
+# Parole, chei și date locale
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.pgpass
+backups/
+*.dump
+*.log
+.DS_Store
+Thumbs.db
