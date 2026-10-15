@@ -46,7 +46,7 @@ Alege o parolă proprie la `createuser`. Clientul o va cere la conectare. Nu o p
 
 Rezultat așteptat: 4 cărți, 3 cititori, 3 împrumuturi, dintre care 2 active. Verificarea se termină cu `Verificari OK`. Dacă ai creat deja utilizatorul/baza, sari acele comenzi și verifică proprietarul cu administratorul.
 
-Continuă cu [exercițiile](EXERCITII.md), apoi cu [backup și restaurare](BACKUP.md). Soluțiile sunt în [solutii.sql](solutii.sql).
+Continuă cu [exercițiile](EXERCITII.md), apoi cu [backup și restaurare](BACKUP.md) și [utilizatorul cu drept de citire](PERMISIUNI.md). Soluțiile sunt în [solutii.sql](solutii.sql), iar rezultatele testării în [VALIDARE.md](VALIDARE.md).
 
 ## Diagnostic rapid
 
@@ -65,7 +65,7 @@ Pe Hyper-V, pentru o adresă stabilă în LAN folosește un switch extern și o 
 - [x] Schema PostgreSQL, date fictive și verificări automate.
 - [x] Zece exerciții SQL cu soluții.
 - [x] Procedură și scripturi backup/restore într-o bază separată.
-- [ ] Rol de citire și teste de permisiuni.
+- [x] Rol de citire și teste manuale de permisiuni.
 - [ ] Modul comparativ MySQL.
 - [ ] API pentru bibliotecă și teste.
 - [ ] Docker Compose cu volume persistente.
